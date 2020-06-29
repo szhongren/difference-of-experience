@@ -2,6 +2,8 @@
 
 ## tldr; Even in a society where the likelihood of a negative interracial experience is relatively low, there will inevitably be a discrepancy in the rates at which different races experience negative interactions.
 
+To run: `python3 experience_difference.py`
+
 If we assume that in a society where the average incidence of negative interracial interactions is a
 constant 0.1%:
 
