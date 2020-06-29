@@ -71,7 +71,7 @@ def main():
                 other_person = people[other_i]
                 person.interact_with(other_person)
                 other_person.interact_with(person)
-        print(f"day: {day}")
+        # print(f"day: {day}")
     interactions_summaries = {
         Race.A: InteractionsSummary(),
         Race.B: InteractionsSummary(),
@@ -87,7 +87,8 @@ def main():
         print(f"average interactions: {v.total_interactions / v.total_people}")
         print(f"average bad interactions: {v.total_bad_interactions / v.total_people}")
         print(f"average good interactions: {v.total_good_interactions / v.total_people}")
-        print(f"average prevalance: {v.total_r_score / v.total_people}")
+        print(f"average r_score: {v.total_r_score / v.total_people}")
+        print("-" * 100)
 
 if __name__ == "__main__":
     main()
